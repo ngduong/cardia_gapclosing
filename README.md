@@ -20,7 +20,7 @@ Code for the analysis of the CARDIA study described in the accompanying manuscri
 
 ## Data
 
-The analysis uses CARDIA data, which are available through the CARDIA Coordinating Committee (https://www.cardia.dph.uncc.edu) and are not distributed here. Two files are expected in `data/`:
+The analysis uses CARDIA data, which are not publicly available. For ease of conceptualization, we describe the analytical dataset layout and variables in the analytical dataset:
 
 - `cdm_data_clean_ipcw_imp_v2.csv`: one row per participant with baseline covariates (`examage`, `sex`, `race_label`, `a03ed`, `c03incom`, `deprv80n00`, `a10smoke`, `a07mlalc`), follow-up for MACE with non-CVD death censored (`t_cvd_or_cvd_death`, `cvd_or_cvd_death_event`) and with competing events (`mace_time`, `mace_status`).
 - `le8_score_all.csv`: multiply imputed LE8 scores, long by imputation (`id`, `exam`, `imp`, `le8_imputed`).
