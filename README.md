@@ -16,7 +16,6 @@ Code for the analysis of the CARDIA study described in the accompanying manuscri
 | `run_analysis.R` | One analysis: outcome definition x intervention set x scale |
 | `run_all.R` | Every analysis in sequence |
 | `summarize_results.R` | Pooled tables with Wald intervals |
-| `check_installation.R` | Recomputes imputation 1 and compares with `tests/expected_imputation1.csv` |
 
 ## Data
 
