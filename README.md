@@ -8,10 +8,10 @@ Code for the analysis of the CARDIA study described in the accompanying manuscri
 |---|---|
 | `R/setup.R` | Packages, constants, data access |
 | `R/pseudo_observations.R` | Jackknife pseudo-observations for 35-year risk and restricted mean time, with non-CVD death either censored or treated as a competing event |
-| `R/allowability_weights.R` | Odds weights standardizing White participants to the Black age-sex distribution |
-| `R/interventions.R` | The nine interventions as capped additive shifts of the LE8 score |
-| `R/estimator.R` | Censored-Gaussian density ratio and the doubly robust estimator |
-| `R/bootstrap.R` | Within-race bootstrap and Rubin's rules across imputations |
+| `R/allowability_weights.R` | Outcome-allowability weights standardizing White participants to the Black age-sex distribution |
+| `R/interventions.R` | The nine interventions as shifts of the LE8 score |
+| `R/estimator.R` | Truncated-Gaussian density ratio and the doubly robust estimator |
+| `R/bootstrap.R` | Race-specific bootstraps and Rubin's rules across imputations |
 | `R/specifications.R` | Primary and sensitivity intervention parameters |
 | `run_analysis.R` | One analysis: outcome definition x intervention set x scale |
 | `run_all.R` | Every analysis in sequence |
